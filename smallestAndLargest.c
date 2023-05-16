@@ -21,11 +21,11 @@ int main(int argc, char const *argv[])
 {
     int int1, int2, int3, int4;
 
-    printf("Enter your numbers: ");
+    printf("Enter four integers: ");
 
     scanf("%d %d %d %d", &int1, &int2, &int3, &int4);
 
-    printf("\nThe largest number is %d\n", largest(int1, int2, int3, int4));
+    printf("Largest: %d", largest(int1, int2, int3, int4));
 
-    printf("\nThe smallest number is %d\n", smallest(int1, int2, int3, int4));
+    printf("\nSmallest: %d", smallest(int1, int2, int3, int4));
 }

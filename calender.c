@@ -4,9 +4,15 @@ int main(int argc, char const *argv[])
 {
     int days, weekday;
 
-    printf("Enter how many days and the weekday at which the month starts (space separated):\n");
+    printf("Enter number of days in month: ");
 
-    scanf("%d %d", &days, &weekday);
+    scanf("%d", &days);
+
+    printf("Enter starting day of the week (1=Sun, 7=Sat): ");
+
+    scanf("%d", &weekday);
+
+    printf("\n\n");
 
     int weekCounter = weekday - 1;
 
